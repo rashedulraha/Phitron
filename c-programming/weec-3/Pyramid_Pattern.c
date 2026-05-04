@@ -1,28 +1,26 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main()
-{
-  int n;
-  scanf("%d", &n);
 
-  int star = 1;
-  int space = n-1;
+int main(){
+  
+  int n ;
+  scanf("%d",&n);
+  int star  = 1;
+  int space  = n-1; // n-1 = (3-1) = 2
 
-  for (int i = 1; i <  n; i++)
-  {
+  for( int i = 1; i<=n;i++){
 
-    for(int j = 1; j<space;j++){
+    for( int s = 1; s<=space;s++){
       printf(" ");
-    }
+    };
 
-    for (int j = 1; j <= star; j++)
-    {
+    for (int j = 1; j<=star;j++){
       printf("*");
     }
-
     printf("\n");
-    star += 2;
-    space --;
-  };
+    star +=2;
+    space--;
+  }
+  
   return 0;
 }
