@@ -21,6 +21,6 @@ int main(){
 
     star++;
     space--;
-  }
+  } 
   return 0;
 }
