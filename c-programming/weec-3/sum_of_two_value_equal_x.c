@@ -27,6 +27,7 @@ int main(){
     if(a[i]+a[j]==x){
       flag=1;
       printf("Yes\n");
+      printf("%d %d", a[i],a[j]);
     }
     }
   }
