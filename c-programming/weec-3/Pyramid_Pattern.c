@@ -2,18 +2,21 @@
 
 int main()
 {
-  int n, star = 1;
-  scanf("%d", &n);
+  int a;
+  scanf("%d", &a);
 
-  for (int i = 0; i <= n; i++)
+  int star = 1;
+
+  for (int i = 0; i <= a; i++)
   {
+
     for (int j = 1; j <= star; j++)
     {
-
-      printf("* ");
+      printf("*");
     }
+
     printf("\n");
-    star++;
-  }
+    star += 2;
+  };
   return 0;
 }
