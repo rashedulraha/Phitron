@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+    int N;
+    scanf("%d", &N);
+
+    int totalRows = 2 * N - 1;
+
+    for (int i = 1; i <= totalRows; i++) {
+
+        int len;
+
+        // Determine pattern width
+        if (i <= N)
+            len = 2 * i - 1;
+        else
+            len = 2 * (totalRows - i + 1) - 1;
+
+        // Print leading spaces
+        int spaces = (2 * N - 1 - len) / 2;
+        for (int j = 0; j < spaces; j++) {
+            printf(" ");
+        }
+
+        // Select character
+        char ch = (i % 2 == 1) ? '#' : '-';
+
+        // Print pattern
+        for (int j = 0; j < len; j++) {
+            printf("%c", ch);
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
