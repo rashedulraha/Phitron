@@ -3,8 +3,8 @@
 
 int main(){
   
-  int a [3][4];
-  a[1][2] = 10;
-  printf("%d",a[1][2]);
-  return 0;
+int r,c;
+scanf("%d %d",&r,&c);
+int n[r][c];
+return 0;
 }
