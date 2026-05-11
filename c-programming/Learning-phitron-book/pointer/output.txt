@@ -1,2 +1,0 @@
- oth index address = 000000000061FE00
- oth index address = 000000000061FE00
