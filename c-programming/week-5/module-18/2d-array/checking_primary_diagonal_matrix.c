@@ -32,6 +32,6 @@ int main(){
     //square matrix 
   }else{
     printf("This is not  a diagonal matrix");
-  }
+  } 
   return 0;
 }
