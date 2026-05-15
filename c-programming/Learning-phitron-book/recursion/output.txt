@@ -1,3 +1,5 @@
-im a function 2
-i am a function 1
-im a main function
+1
+2
+3
+4
+5
