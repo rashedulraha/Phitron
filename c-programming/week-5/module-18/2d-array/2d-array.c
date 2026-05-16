@@ -1,13 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
 
+int main()
+{
 
-int main(){
-  
-int r,c;
-scanf("%d %d",&r,&c);
-int n[r][c];
+  int r, c;
+  scanf("%d %d", &r, &c);
+  // int a[r][c];
 
+  for (int i = 0; i < r; i++)
+  {
 
+    for (int j = 0; j < c; j++)
+    {
+      printf("%d %d print", i, j);
+    }
 
-return 0;
+    printf("%d", i);
+    printf("\n");
+  }
+  return 0;
 }
