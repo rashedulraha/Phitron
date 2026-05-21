@@ -26,11 +26,21 @@ int main() {
 
     // * input multiple number to print max number using max function
 
-    cout << max({4,5,6,7,65,343,34})<< endl;
+    // cout << max({4,5,6,7,65,343,34})<< endl;
     
 
     // same way to using min function
-    cout << min({4,5,6,7,65,343,34})<< endl;
+    // cout << min({4,5,6,7,65,343,34})<< endl;
+
+
+    // value swap function 
+
+
+
+
+    swap(a,b);
+
+    cout << a << endl << b ;
 
 
 
