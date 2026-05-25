@@ -45,5 +45,47 @@ int main() {
   // x = t = y = 40; // y=40, t=y/40, z=t/40;
   // cout << y + t;
 
+  //* c++ identifiers
+  //?? good
+  int minutePerHours = 45;
+  //! bad
+  int m = 34;
+
+  // using letter digit and underscore
+  // int 8n = 4;
+  int _d = 7;
+
+  //* learning constants
+
+  // const int age = 4;
+  // age = 48;
+  // cout << age << endl;
+
+  // const declare variable;
+
+  // const int age = 45;
+  // age = 46;
+  // cout << age << endl;
+
+  //* c++ variable example
+
+  // int studentId = 4;
+  // int studentAge = 12;
+  // double studentFee = 56.4;
+  // char studentGrad = 'A';
+
+  // cout << studentId << endl
+  //      << studentAge << endl
+  //      << studentFee << endl
+  //      << studentGrad << endl;
+
+  //  * calculate area of  rectangle;
+  // int height = 4;
+  // int width = 3;
+
+  // int rectangle = height * width;
+  // cout << rectangle;
+  // ;
+
   return 0;
 }
