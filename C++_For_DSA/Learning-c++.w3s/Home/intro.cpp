@@ -94,8 +94,31 @@ int main()
 
   // ! creating a simple calculator
 
-  int p, q;
-  cin >> p, q;
-  cout << "Your summation is : " << p + q << endl;
+  // int p, q;
+  // cin >> p, q;
+  // cout << "Your summation is : " << p + q << endl;
+
+  // character
+  // char a = 65;
+  // cout << a;
+
+  // * auto types
+  // auto x = 3;
+  // cout << x;
+
+  // * real life example
+
+  // create variable with different data types  ;
+
+  int item = 40;
+  double costPerItem = 4.5;
+  double total_cost = item * costPerItem;
+  char currency = '$';
+
+  // print this code
+
+  cout << "Number of Item " << item << endl;
+  cout << "Cost per item " << costPerItem << currency << endl;
+  cout << "Total cost : " << total_cost << currency << endl;
   return 0;
 }

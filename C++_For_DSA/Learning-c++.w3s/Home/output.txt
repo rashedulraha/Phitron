@@ -1,1 +1,3 @@
-Your summation is : 7
+Number of Item 40
+Cost per item 4.5$
+Total cost : 180$
