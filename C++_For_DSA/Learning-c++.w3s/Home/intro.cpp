@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 
   // cout << "Hello world check file";
   // cout << "Hello world";
@@ -47,13 +48,13 @@ int main() {
 
   //* c++ identifiers
   //?? good
-  int minutePerHours = 45;
-  //! bad
-  int m = 34;
+  // int minutePerHours = 45;
+  // //! bad
+  // int m = 34;
 
   // using letter digit and underscore
   // int 8n = 4;
-  int _d = 7;
+  // int _d = 7;
 
   //* learning constants
 
@@ -87,5 +88,14 @@ int main() {
   // cout << rectangle;
   // ;
 
+  // int x;
+  // cin >> x;
+  // cout << "Your number is : " << x;
+
+  // ! creating a simple calculator
+
+  int p, q;
+  cin >> p, q;
+  cout << "Your summation is : " << p + q << endl;
   return 0;
 }

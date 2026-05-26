@@ -1,1 +1,1 @@
-12
+Your summation is : 7
