@@ -25,9 +25,13 @@ int main()
   // string text = "concepts depending on the context";
   // cout << "The length of the text string : " << text.length();
 
-  string name = "Hello";
-  cout << "The length : " << name.length() << endl;
-  cout << "The size : " << name.size();
+  // string name = "Hello";
+  // cout << "The length : " << name.length() << endl;
+  // cout << "The size : " << name.size();
+
+  //* access string
+  // string myString = "Hello";
+  // cout << myString[0];
 
   return 0;
 }
