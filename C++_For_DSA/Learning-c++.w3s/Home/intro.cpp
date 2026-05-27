@@ -110,15 +110,18 @@ int main()
 
   // create variable with different data types  ;
 
-  int item = 40;
-  double costPerItem = 4.5;
-  double total_cost = item * costPerItem;
-  char currency = '$';
+  // int item = 40;
+  // double costPerItem = 4.5;
+  // double total_cost = item * costPerItem;
+  // char currency = '$';
 
-  // print this code
+  // // print this code
 
-  cout << "Number of Item " << item << endl;
-  cout << "Cost per item " << costPerItem << currency << endl;
-  cout << "Total cost : " << total_cost << currency << endl;
+  // cout << "Number of Item " << item << endl;
+  // cout << "Cost per item " << costPerItem << currency << endl;
+  // cout << "Total cost : " << total_cost << currency << endl;
+
+  //* code challenge
+
   return 0;
 }
