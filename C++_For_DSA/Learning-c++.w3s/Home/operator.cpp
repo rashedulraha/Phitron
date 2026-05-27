@@ -32,10 +32,10 @@ int main()
 
   //* code challenges
 
-  int itemPrice = 45;
-  int shippingCost = 43;
-  int sum = itemPrice + shippingCost;
-  cout << sum << endl;
+  // int itemPrice = 45;
+  // int shippingCost = 43;
+  // int sum = itemPrice + shippingCost;
+  // cout << sum << endl;
 
   return 0;
 }

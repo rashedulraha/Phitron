@@ -1,1 +1,2 @@
-88
+The length : 5
+The size : 5
