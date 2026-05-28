@@ -18,6 +18,7 @@ const row = [4, 8, 4, 5, 8, 4, 5, 8, 4, 5, 7, 5];
 
 //* question is
 //? print 3 row and print 1 col
+// git commit
 
 const r = 3;
 const c = 1;
