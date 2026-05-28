@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
   // string greeting = "Hello";
   // cout << greeting;
 
@@ -32,6 +31,25 @@ int main()
   //* access string
   // string myString = "Hello";
   // cout << myString[0];
+
+  //* special character
+  // string text = "we are not so-called \"Nothing\" Hello";
+  // cout << text << endl;
+
+  // * user input string ;
+
+  // string firstName;
+  // cin >> firstName;
+  // cout << "your name is " << firstName;
+
+  //* full name using getline
+  // string fullName;
+  // getline(cin, fullName);
+  // cout << fullName;
+
+  //  omiting namespace
+
+  // omiting  namespace using :: std;
 
   return 0;
 }
