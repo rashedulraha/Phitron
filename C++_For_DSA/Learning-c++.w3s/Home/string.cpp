@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
   // string greeting = "Hello";
   // cout << greeting;
 
@@ -51,5 +52,19 @@ int main() {
 
   // omiting  namespace using :: std;
 
+  //  c style string
+
+  // string getting1 = "Hello world";
+  // char getting2[] = "hello world";
+  // getting1 += "3";
+  // cout << getting1.length() << endl;
+
+  // cout << getting1 << endl
+  //      << getting2;
+
+  // *  coding challenge ;
+
+  string message = "Hello";
+  cout << message;
   return 0;
 }
