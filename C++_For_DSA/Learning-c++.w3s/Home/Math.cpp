@@ -1,9 +1,8 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
   // * max and min
   // cout << max(4, 5) << endl;
   // cout << min(4, 5);
