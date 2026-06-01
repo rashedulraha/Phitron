@@ -26,3 +26,6 @@ const c = 1;
 for (let i = 0; i < col.length; i++) {
   console.log(col[3], row[i]);
 }
+
+// console.log("Hello world");
+// print("Hello world")
