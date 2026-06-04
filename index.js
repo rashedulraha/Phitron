@@ -30,3 +30,7 @@ for (let i = 0; i < col.length; i++) {
 // console.log("Hello world");
 // commit  this code ;
 // print("Hello world")
+
+// day to commit  3 ;
+
+console.log("Nothing commit in this part ");
