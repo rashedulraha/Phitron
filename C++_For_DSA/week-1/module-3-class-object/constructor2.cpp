@@ -28,5 +28,7 @@ int main()
   cout << Ponds.name << endl
        << Ponds.description << endl
        << Ponds.price << endl;
+
+  // print value to object include  function
   return 0;
 }
