@@ -7,6 +7,7 @@ class Product
 public:
   string name;
   string description;
+
   int price;
 
   Product(string name, string description, int price)
