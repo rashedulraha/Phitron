@@ -7,10 +7,10 @@ int main()
   string someTwo;
 
   getline(cin, someValue);
-  cin.ignore();
   getline(cin, someTwo);
 
-  cout << someValue;
+  cout << "First line: " << someValue << endl;
+  cout << "Second line: " << someTwo << endl;
 
   return 0;
 }
