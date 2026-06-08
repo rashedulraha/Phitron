@@ -47,12 +47,28 @@ int main() {
   //      << Userthree.name << endl;
 
   // named structured
-  struct studentData {
+  // struct studentData {
+  //   string name;
+  //   int className;
+  //   int roll;
+  //   double gpa;
+  // };
+
+  // complete Challenge Task ;
+
+  struct {
     string name;
-    int className;
-    int roll;
-    double gpa;
-  };
+    int age;
+    char grade;
+  } student;
+
+  student.name = "Nothing";
+  student.age = 45;
+  student.grade = 'A';
+
+  // print the value to the screen ;
+
+  cout << student.name << student.age << student.grade << endl;
 
   return 0;
 }
