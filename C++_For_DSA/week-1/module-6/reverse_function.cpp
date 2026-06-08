@@ -12,9 +12,10 @@ int main() {
   for (int i = 0; i < arraySize; i++) {
     cin >> arrayInput[i];
   }
-  // for (int i = 0; i < arraySize; i++) {
-  //   cout << arrayInput[i];
-  // }
+
+  for (int i = 0; i < arraySize; i++) {
+    cout << arrayInput[i];
+  }
 
   return 0;
 }

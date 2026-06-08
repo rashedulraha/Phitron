@@ -8,9 +8,9 @@ int main() {
   cin >> s;
 
   //* using for loop function one
-  // for (int i = 0; i < s.size(); i++) {
-  //   cout << s[i] << endl;
-  // }
+  for (int i = 0; i < s.size(); i++) {
+    cout << s[i] << endl;
+  }
 
   // * using for loop second way
 
