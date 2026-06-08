@@ -14,13 +14,16 @@ int main() {
   //     cout << world << endl;
   //   }
   // }
-
   string s;
   cin >> s;
 
-  reverse(s.begin(), s.end());
+  sort(s.begin(), s.end());
 
   cout << s << endl;
+
+  // reverse(s.begin() + 1, s.end() - 1);
+
+  //* using sort
 
   return 0;
 }
