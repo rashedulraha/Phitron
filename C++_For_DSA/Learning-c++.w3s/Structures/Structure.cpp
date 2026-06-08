@@ -42,9 +42,17 @@ int main() {
 
   // print any user in this case
 
-  cout << userOne.name << endl
-       << userTwo.name << endl
-       << Userthree.name << endl;
+  // cout << userOne.name << endl
+  //      << userTwo.name << endl
+  //      << Userthree.name << endl;
+
+  // named structured
+  struct studentData {
+    string name;
+    int className;
+    int roll;
+    double gpa;
+  };
 
   return 0;
 }
