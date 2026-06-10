@@ -15,5 +15,8 @@ void myFunctionDefinition() {
 int main() {
   //* learning function
 
+  // called function
+  myFunctionDefinition();
+
   return 0;
 }
