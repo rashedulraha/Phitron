@@ -14,7 +14,11 @@ void multipleParameters(string name, int age) {
   cout << "Your name is : " << name << endl << "your age is : " << age << endl;
 };
 
+//* pass by value
+void consoleLog(string name) { cout << name << endl; }
 //* return function
+// * pass by references
+void changeValue(int &num) { num = 48; }
 
 int sumValue(int a, int b) {
   int sum = a + b;
@@ -39,9 +43,16 @@ int main() {
   // cout << sumValue(4, 5) << endl;
   // * retrun  and store the values
 
-  int sumStore = sumValue(45, 7);
+  // int sumStore = sumValue(45, 7);
 
-  cout << sumStore << endl;
+  // cout << sumStore << endl;
 
+  // pass by value to print
+  // consoleLog("Hello");
+
+  // pass by references
+  int value = 10;
+  changeValue(value);
+  cout << value << endl;
   return 0;
 }
