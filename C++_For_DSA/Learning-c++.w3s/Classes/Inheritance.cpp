@@ -29,7 +29,19 @@ public:
 class MYChild : public MyClass {};
 class MYGrandChild : public MyClass {};
 
-// * Multiple Inheritance
+// * Inheritance Access
+// Base class
+class Employee {
+protected: // Protected access specifier
+  int salary;
+};
+
+class Programmer : public Employee {
+public:
+  int bonus;
+  void setSalary(int salary) { this->salary = salary; }
+  int getSalary() { return salary; }
+};
 
 // base class
 class MyClass1 {
@@ -45,6 +57,8 @@ public:
 
 // Derived class
 class MyChildClass : public MyClass, public MyOtherClass {};
+
+// * Inheritance Access
 
 int main() {
   // Car myCar;
