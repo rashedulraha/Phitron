@@ -33,4 +33,22 @@ for (let i = 0; i < col.length; i++) {
 
 // day to commit  3 ;
 
-console.log("Nothing commit in this part ");
+// console.log("Nothing commit in this part ");
+
+
+
+// createting class object ; 
+class Person {
+  name = "Rashedul";
+  age = "24";
+
+  constructor(name,age){
+    this.name = name ; 
+    this.age = age ; 
+  }
+}
+ 
+
+const person = new Person("Rashedul", "24") ; 
+
+console.log(person);   
